@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "ZYBoard"
+  },
+  "menu": {
+    "title": "Menu"
+  },
+  "tabs": {
+    "history": "History",
+    "favorite": "Favorites"
+  },
+  "empty": {
+    "history": "Clipboard history is empty",
+    "favorite": "No favorited items",
+    "hint": {
+      "history": "Copied content will appear here automatically",
+      "favorite": "Click ☆ button to favorite important content"
+    }
+  },
+  "help": {
+    "shortcuts": "Shortcuts",
+    "drag": "Drag title bar",
+    "move": "Move window",
+    "toggle": "Show/Hide window",
+    "paste": "Quick paste 1-3",
+    "nav": "Navigate",
+    "enter": "Paste",
+    "esc": "Close window",
+    "delete": "Delete selected",
+    "favorite": "Toggle favorite",
+    "tab": "Switch tabs"
+  },
+  "status": {
+    "pasted": "Pasted",
+    "pasteFailed": "Paste failed",
+    "favorited": "Favorited",
+    "unfavorited": "Unfavorited",
+    "deleted": "Deleted",
+    "deleteFailed": "Delete failed",
+    "cleared": "Cleared",
+    "clearFailed": "Clear failed",
+    "settingsSaved": "Settings saved",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "permissionDenied": "Accessibility permission required",
+    "permissionHelp": "Please grant accessibility permission in System Settings",
+    "permissionNeeded": "System permission required for paste function",
+    "permissionSteps": "System Settings → Privacy & Security → Accessibility & Automation"
+  },
+  "about": {
+    "title": "About",
+    "appName": "ZhengYuan Clipboard",
+    "description1": "A powerful clipboard management tool supporting fast copy and paste of text and images.",
+    "description2": "ZhengYuan Clipboard - Order from chaos. Built with Tauri + Vue.js.",
+    "features": "Features:",
+    "feature1": "Support text and image clipboard history",
+    "feature2": "Favorite important content",
+    "feature3": "Quick paste with shortcuts",
+    "feature4": "Dark/Light theme toggle",
+    "feature5": "Local data storage",
+    "version": "Version 0.1.0",
+    "slogan": "Order from chaos",
+    "egg": "ZhengYuan · 致凤元",
+    "author": "ZhengYuan Tech"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "shortcuts": "Shortcuts",
+    "toggleWindow": "Show/Hide Window",
+    "paste123": "Quick Paste 1-3",
+    "dataManagement": "Data Management",
+    "maxHistory": "Max History Records",
+    "enableImages": "Enable Image Support",
+    "autostart": "Launch at Login",
+    "hideAfterPaste": "Hide Window After Paste",
+    "actions": "Actions",
+    "clearAll": "Clear All Records",
+    "save": "Save Settings",
+    "pressKey": "Press key combination..."
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English"
+  }
+}

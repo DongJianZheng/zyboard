@@ -1,0 +1,223 @@
+/* 暗色主题（默认） - 参考 IDEA Darcula */
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* IDEA Darcula 主题颜色变量 */
+  --app-bg-color-1: #2b2b2b;
+  --app-bg-color-2: #3c3f41;
+  --app-bg-color-3: #313335;
+  --app-bg-color-4: #353739;
+  --app-font-color-base: #ffffff;
+  --app-font-color-2: #a9b7c6;
+  --app-font-color-1: #a9b7c6;
+  --app-font-color-3: #808080;
+  --app-font-color-4: #ffffff;
+  --app-boder-color-1: 1px solid #4c5052;
+  --app-table-boder-color-1: 1px solid #4c5052;
+  --app-font-border-1: 1px solid #4c5052;
+  --placeholder-color: #606366;
+  --el-pager-li-bg-color: #3c3f41;
+  --current-row-bg-color: #4b6eaf;
+  --table-hover-color: #404244;
+  --picker-bg-color: #3c3f41;
+  --checkbox-is-checked-color: #4b6eaf;
+  --select-bg-color: #3c3f41;
+  --input-disabled-bg: #353739;
+  --input-disabled-text: #606366;
+  --input-disabled-border: #4c5052;
+  --el-table-color: #a9b7c6;
+  --el-table-bg-color: #313335;
+  --el-form-label-color: #a9b7c6;
+  --el-form-input-boder-color: 1px solid #4c5052;
+  --el-dialog-border-color: 1px solid #4c5052;
+  --el-button-bg-color: rgba(75, 110, 175, 0.8);
+  --el-upload-bg-color: #3c3f41;
+  --el-upload-border: none;
+
+  /* 通知容器背景（带透明度） */
+  --notification-bg: rgba(43, 43, 43, 0.96);
+  --notification-border: 1px solid #4c5052;
+  --notification-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.35);
+  --notification-hover-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  --notification-title-color: #a9b7c6;
+  --notification-text-color: #a9b7c6;
+  --notification-message-color: #a9b7c6;
+  --notification-close-color: #a9b7c6;
+  --notification-button-bg: linear-gradient(90deg, #4b6eaf, #6c8dd5);
+  --notification-button-text: #ffffff;
+  --notification-button-shadow: 0 2px 6px rgba(75, 110, 175, 0.5);
+  --notification-button-hover-shadow: 0 4px 8px rgba(75, 110, 175, 0.7);
+  --border-color-1: #4c5052;
+  --border-color-2: #4b6eaf;
+
+  /* 滚动条颜色 */
+  --scrollbar-track-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.15);
+  --scrollbar-thumb-hover-bg: rgba(255, 255, 255, 0.25);
+}
+
+/* 亮色主题 */
+.light {
+  --main-bg: #f5f6f7;
+  --font-color-base: #333;
+  --app-bg-color-1: #f5f6f7;
+  --app-bg-color-2: #eef0f2;
+  --app-bg-color-3: #ffffff;
+  --app-bg-color-4: #fcfcfd;
+  --app-font-color-base: #2c3e50;
+  --app-font-color-2: #5a6c7d;
+  --app-font-color-4: #2c3e50;
+  --app-font-color-1: #2c3e50;
+  --app-font-color-3: #95a5a6;
+  --app-boder-color-1: 1px solid #d4d8dc;
+  --app-table-boder-color-1: 1px solid #e1e4e8;
+  --placeholder-color: #95a5a6;
+  --bg-el-pager-li-color: #ffffff;
+  --current-row-bg-color: #e8f4f8;
+  --table-hover-color: #f0f4f8;
+  --picker-bg-color: #ffffff;
+  --checkbox-is-checked-color: #3498db;
+  --select-bg-color: #ffffff;
+  --input-disabled-bg: #ecf0f1;
+  --input-disabled-text: #95a5a6;
+  --input-disabled-border: #d4d8dc;
+  --el-table-color: #2c3e50;
+  --el-table-bg-color: #ffffff;
+  --el-form-label-color: #2c3e50;
+  --el-form-input-boder-color: 1px solid #bdc3c7;
+  --el-dialog-border-color: 1px solid #3498db;
+  --el-button-bg-color: #ffffff;
+  --el-upload-bg-color: #ffffff;
+  --el-upload-border: 1px dashed #bdc3c7;
+  --notification-bg: rgba(255, 255, 255, 0.96);
+  --notification-border: 1px solid #e0e0e0;
+  --notification-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --notification-hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  --notification-title-color: #2c3e50;
+  --notification-text-color: #5a6c7d;
+  --notification-message-color: #34495e;
+  --notification-close-color: #95a5a6;
+  --notification-button-bg: linear-gradient(90deg, #3498db, #2980b9);
+  --notification-button-text: #ffffff;
+  --notification-button-shadow: 0 2px 6px rgba(52, 152, 219, 0.3);
+  --notification-button-hover-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  --border-color-1: #d4d8dc;
+  --border-color-2: #3498db;
+
+  /* 滚动条颜色 */
+  --scrollbar-track-bg: rgba(0, 0, 0, 0.05);
+  --scrollbar-thumb-bg: rgba(0, 0, 0, 0.2);
+  --scrollbar-thumb-hover-bg: rgba(0, 0, 0, 0.35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--app-bg-color-1);
+  color: var(--app-font-color-base);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#app {
+  height: 100vh;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input {
+  font-family: inherit;
+  background-color: var(--app-bg-color-3);
+  color: var(--app-font-color-base);
+  border: var(--el-form-input-boder-color);
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--checkbox-is-checked-color);
+}
+
+input::placeholder {
+  color: var(--placeholder-color);
+}
+
+input:disabled {
+  background-color: var(--input-disabled-bg);
+  color: var(--input-disabled-text);
+  border: var(--input-disabled-border);
+  cursor: not-allowed;
+}
+
+/* 全局基础样式 */
+.el-form-item__label {
+  color: var(--el-form-label-color);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-bg);
+}
+
+/* 动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

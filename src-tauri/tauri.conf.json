@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "正元剪贴板",
+  "version": "0.1.0",
+  "identifier": "com.zhengyuan.zyboard",
+  "mainBinaryName": "clipboard-enhancer",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1421",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "title": "正元剪贴板",
+        "width": 400,
+        "height": 550,
+        "minWidth": 400,
+        "minHeight": 550,
+        "resizable": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "skipTaskbar": true,
+        "decorations": false,
+        "acceptFirstMouse": true,
+        "visible": true,
+        "visibleOnAllWorkspaces": true,
+        "devtools": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/icon.icns",
+      "icons"
+
+    ],
+    "macOS": {
+      "frameworks": [],
+      "minimumSystemVersion": "10.13",
+      "signingIdentity": "-",
+      "hardenedRuntime": false,
+      "entitlements": "entitlements.plist",
+      "infoPlist": "Info.plist"
+    }
+  }
+}

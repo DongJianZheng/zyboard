@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景：深蓝色圆角方形，圆角半径约为边长的22% -->
+  <rect x="0" y="0" width="512" height="512" rx="113" fill="#2C3E50"/>
+
+  <!-- 主图形：Z和Y组成的纸张 -->
+  <!-- 纸张1（底层）：用Z的形状 -->
+  <path d="M 96 112 L 416 112 L 416 144 L 128 144 L 128 368 L 416 368 L 416 400 L 96 400 Z" fill="white" stroke="none"/>
+
+  <!-- 纸张2（顶层）：用Y的形状构成折叠角 -->
+  <path d="M 192 160 L 416 160 L 416 192 L 224 192 L 224 256 L 288 256 L 352 320 L 288 384 L 224 384 L 224 320 L 192 320 Z" fill="white" stroke="none"/>
+
+  <!-- 右下角金色圆点 -->
+  <circle cx="464" cy="464" r="12" fill="#F7B731"/>
+
+  <!-- 彩蛋：隐藏的文字 "正元" -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="1" fill="#2C3E50" opacity="0.01">
+    正元 · 致凤元
+  </text>
+</svg>

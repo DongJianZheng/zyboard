@@ -1,0 +1,88 @@
+{
+  "app": {
+    "title": "剪贴板"
+  },
+  "menu": {
+    "title": "菜单"
+  },
+  "tabs": {
+    "history": "历史",
+    "favorite": "收藏"
+  },
+  "empty": {
+    "history": "剪贴板历史为空",
+    "favorite": "没有收藏的项目",
+    "hint": {
+      "history": "复制内容后会自动显示在这里",
+      "favorite": "点击☆按钮收藏重要内容"
+    }
+  },
+  "help": {
+    "shortcuts": "快捷键说明",
+    "drag": "拖拽标题栏",
+    "move": "移动窗口",
+    "toggle": "显示/隐藏窗口",
+    "paste": "快速粘贴1-3",
+    "nav": "导航",
+    "enter": "粘贴",
+    "esc": "关闭窗口",
+    "delete": "删除选中项",
+    "favorite": "收藏/取消收藏",
+    "tab": "切换标签"
+  },
+  "status": {
+    "pasted": "已粘贴",
+    "pasteFailed": "粘贴失败",
+    "favorited": "已收藏",
+    "unfavorited": "已取消收藏",
+    "deleted": "已删除",
+    "deleteFailed": "删除失败",
+    "cleared": "已清空",
+    "clearFailed": "清空失败",
+    "settingsSaved": "设置已保存",
+    "darkMode": "暗色模式",
+    "lightMode": "亮色模式",
+    "permissionDenied": "需要辅助功能权限",
+    "permissionHelp": "请在系统设置中授予辅助功能权限",
+    "permissionNeeded": "需要授予系统权限才能使用粘贴功能",
+    "permissionSteps": "系统设置 → 隐私与安全性 → 辅助功能 & 自动化"
+  },
+  "about": {
+    "title": "关于",
+    "appName": "正元剪贴板",
+    "description1": "一个强大的剪贴板管理工具，支持文本和图片的快速复制粘贴。",
+    "description2": "正本清源，粘贴有序。使用 Tauri + Vue.js 构建。",
+    "features": "功能特点:",
+    "feature1": "支持文本和图片剪贴板历史记录",
+    "feature2": "收藏重要内容",
+    "feature3": "快捷键快速粘贴",
+    "feature4": "深色/亮色主题切换",
+    "feature5": "数据本地存储",
+    "version": "版本 0.1.0",
+    "slogan": "正本清源，粘贴有序",
+    "egg": "正 · 致凤元",
+    "author": "DJZ"
+  },
+  "settings": {
+    "title": "设置",
+    "appearance": "外观",
+    "darkMode": "深色模式",
+    "language": "语言",
+    "shortcuts": "快捷键",
+    "toggleWindow": "显示/隐藏窗口",
+    "paste123": "快速粘贴1-3",
+    "dataManagement": "数据管理",
+    "maxHistory": "最大历史记录数",
+    "enableImages": "启用图片支持",
+    "autostart": "开机自启动",
+    "hideAfterPaste": "粘贴后隐藏窗口",
+    "actions": "操作",
+    "clearAll": "清空所有记录",
+    "save": "保存设置",
+    "pressKey": "按住组合键..."
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English"
+  }
+}
