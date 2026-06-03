@@ -2,6 +2,7 @@
 
 <div align="center">
 
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/781fc088-8477-4e5e-88aa-e4cbb1c7a670" />
 **正本清源，粘贴有序**
 
 基于 **Tauri 2.0 + Vue 3 + TypeScript + SQLite** 开发的现代化剪贴板管理工具
